@@ -61,7 +61,7 @@ header {
     left: -25px;
     background-color: #aeaeae;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
-    display: none;
+    visibility: hidden;
 
 
     .dropdown-links {
@@ -81,5 +81,5 @@ header {
 }
 
 .links:hover #dropdown {
-    display: block;
+    visibility: unset;
 }
